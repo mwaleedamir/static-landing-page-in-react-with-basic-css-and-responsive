@@ -1,0 +1,12 @@
+.future {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+.future p {
+  margin: auto;
+  font-size: 25px;
+  color: rgb(36, 35, 36);
+  width: 18rem;
+  font-weight: bold;
+}

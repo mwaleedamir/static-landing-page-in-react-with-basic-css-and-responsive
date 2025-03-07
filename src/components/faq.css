@@ -1,0 +1,51 @@
+.faq {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.form {
+  flex: 1;
+  background: linear-gradient(to bottom, #0619eb, #85b6e8);
+  height: 25rem;
+  margin: auto 2rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.form h1 {
+  font-size: 25px;
+  color: white;
+  /* margin: auto; */
+}
+
+.text {
+  /* margin: 1rem auto; */
+  text-align: center;
+}
+
+.text-box {
+  /* margin: 0rem auto; */
+}
+
+.text input {
+    border-radius: 8px;
+    height: 20px;
+    width: 100%;
+}
+
+::placeholder{
+    font-size: 10px;
+    /* padding: 0rem 1rem ; */
+    
+}
+
+.text-box input {
+  height: 6rem;
+}
+
+.questions {
+  flex: 2;
+}
