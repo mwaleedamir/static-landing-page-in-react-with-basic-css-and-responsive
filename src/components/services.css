@@ -1,0 +1,126 @@
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: fit-content;
+    padding: 3rem 1rem;
+    text-align: left;
+    background-color: aliceblue;
+     
+}
+ 
+.services-boxes {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    border: none;
+    gap: 3px;
+    color: white;
+    padding: 0px 9rem !important;
+}
+
+
+.services-left{
+    padding: 0px 9rem;
+}
+
+.service-box h1{
+    font-size: 10px !important;
+}
+.service-box h2{
+    font-size: 12px !important;
+}
+.service-box p{
+    font-size: 8px !important;
+}
+
+.services-left h2{
+     font-size: 8px;
+}
+.service-box{
+    flex: 1;
+    background-color: blue;
+    border:  none;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+    padding: 1rem 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .services{
+        padding: 1rem 0px;
+        text-align: left;
+    }
+    
+    .services-boxes {
+        padding: 0px 1rem !important;
+        gap: 10px;
+        color: white;
+        text-align: left;
+        grid-template-columns: auto ;
+        text-align: justify;
+    }
+    /* .services-left{
+        padding: 0px 3rem !important;
+    } */
+    .services-left h2 {
+        font-size: 10px;
+    }
+    .services-left h1{
+        font-size: 20px;
+    }
+    .service-box h1{
+        font-size: 10px !important;
+    }
+    
+    .service-box h2{
+        font-size: 8px !important;
+    }
+    .service-box p{
+        font-size: 7px !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .services-boxes {
+        padding: 0px 4rem !important;
+    }
+    .services-left{
+        padding: 0 4rem !important;
+        /* margin: 0; */
+    }
+    .services-boxes p{
+        font-size: 6px !important;
+    }
+    
+    .services-boxes h1{
+        font-size: 10px !important;
+    }
+    
+    .services-boxes h2{
+        font-size: 13px !important; 
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .services-boxes {
+        padding: 0px 15rem !important;
+    }
+    .services-boxes p{
+        font-size: 10px !important;
+    }
+    
+    .services-boxes h1{
+        font-size: 17px !important;
+    }
+    
+    .services-boxes h2{
+        font-size: 13px !important; 
+    }
+    .services-left{
+        padding: 0px 15rem;
+    }
+} 

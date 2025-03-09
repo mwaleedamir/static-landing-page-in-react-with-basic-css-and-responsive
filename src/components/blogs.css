@@ -1,0 +1,153 @@
+.blogs {
+  margin: 2rem 4rem;
+}
+
+.blogs-top {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.blogs-flex {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-direction: row;
+}
+.blogs-top h2 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.blogs-flex h1 {
+  font-size: 40px;
+  width: 50%;
+}
+
+.blogs-button {
+  margin: auto 0;
+}
+
+.blogs-bottom {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.blogs-box {
+  position: relative;
+  text-align: center;
+}
+.blogs-box button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.blogs-img img {
+  width: 100%;
+}
+.date {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  gap: 4px;
+}
+
+.date p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.blogs-img h1 {
+  font-size: 23px !important;
+}
+
+.blogs-img p {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .blogs-bottom {
+    flex-direction: column;
+  }
+  .date p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blogs-img h1 {
+    font-size: 23px !important;
+  }
+
+  .blogs-img p {
+    font-size: 15px;
+  }
+  .blogs-top h2 {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .blogs-flex h1 {
+    font-size: 30px!important;
+    width: 100%;
+  }
+
+  .blogs {
+    margin: 2rem 1rem;
+  }
+
+  .blogs-flex {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blogs {
+    margin: 2rem;
+  }
+  .blogs-bottom {
+    gap: 8px;
+  }
+  .date p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blogs-img h1 {
+    font-size: 17px !important;
+  }
+  
+  .blogs-img p {
+    font-size: 10px !important;
+  }
+  .blogs-top h2 {
+    font-size: 10px !important;
+  }
+  .blogs-flex h1 {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .date p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blogs-img h1 {
+    font-size: 30px !important;
+  }
+
+  .blogs-img p {
+    font-size: 20px;
+  }
+  .blogs-top h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .blogs-flex h1 {
+    font-size: 45px;
+  }
+}

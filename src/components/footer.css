@@ -1,0 +1,150 @@
+.footer {
+  background: linear-gradient(to bottom, #5e6bfa, #244f7a);
+  color: white;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 4px;
+}
+
+.footer-logo {
+  text-align: center;
+  font-size: 20px;
+  margin: auto 0;
+}
+
+.number {
+  display: flex;
+  font-size: 15px;
+}
+
+.phone {
+  margin: auto;
+}
+
+.number-flex {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: auto 10px;
+}
+
+.number-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number-flex-col h1 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.email {
+  display: flex;
+  font-size: 15px;
+}
+
+.email-num {
+  margin: auto;
+}
+
+.email-flex {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: auto 10px;
+}
+
+.email-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-flex-col h1 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.address {
+  display: flex;
+  font-size: 15px;
+}
+
+.address-num {
+  margin: auto;
+}
+
+.address-flex {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: auto 10px;
+}
+
+.address-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address-flex-col h1 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 1rem;
+  margin-left: 3rem;
+  text-align: left;
+}
+
+.footer-about h1 {
+  font-size: 15px;
+  /* margin: 3px 1rem; */
+}
+.footer-about p {
+  font-size: 15px;
+  /* margin: 0 1rem; */
+}
+
+.facebook {
+  display: flex;
+  gap: 12px;
+  /* margin: 10px 1rem; */
+}
+
+.usefull {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.usefull h1 {
+  font-size: 20px;
+  margin: 15px 0px;
+  /* padding-bottom: 10px; */
+}
+
+.flex-row {
+  margin: auto;
+  font-size: 15px;
+}
+
+.usefull-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.useful-flex-row {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
