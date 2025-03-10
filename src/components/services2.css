@@ -2,7 +2,12 @@
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
-    padding: 3rem 5rem;
+    padding: 3rem 0rem;
+    width: 70%;
+}
+
+.services2 {
+    justify-self: center;
 }
 
 .services2-left {

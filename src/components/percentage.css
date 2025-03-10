@@ -2,10 +2,19 @@
   display: flex;
   background: linear-gradient(to bottom, #5e6bfa, #244f7a);
   height: 6rem;
-  justify-content: space-evenly;
-  justify-items: center;
   color: white;
-  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem ;
+  /* margin: auto; */
+}
+
+.per- {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  /* justify-self: center; */
+  width: 70%;
 }
 
 .per-flex {
@@ -26,6 +35,11 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
+  .per-{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 2rem;
+  }
   .per-flex h1 {
     font-size: 20px;
   }

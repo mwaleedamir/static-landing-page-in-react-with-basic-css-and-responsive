@@ -10,11 +10,15 @@ import Faq from "../components/faq";
 import Percentage from "../components/percentage";
 import Footer from "../components/footer";
 import Blogs from "../components/blogs";
+import './body.css'
 const Body = () => {
   return (
-    <div>
+    <div className="body">
+
       <About />
+      <div className="Services">
       <Services />
+      </div>
       <Jobs />
       <Choose/>
       <Future/>

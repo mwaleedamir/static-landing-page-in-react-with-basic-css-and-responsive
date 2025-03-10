@@ -1,8 +1,15 @@
+
+.faq-{
+  justify-items: center;
+
+}
+
 .faq {
   display: flex;
   justify-content: center;
   justify-items: center;
-  margin: 2rem 3rem;
+  width: 70%;
+  /* margin: 2rem 3rem; */
 }
 
 .form {
@@ -10,8 +17,6 @@
   display: flex;
   flex-direction: column;
   background: linear-gradient(to bottom, #5e6bfa, #244f7a);
-  /* height: 20rem; */
-  margin: 0 2rem;
   padding: 10px 0;
 }
 
@@ -40,7 +45,7 @@
   font-size: 10px;
 }
 
-button {
+.btn {
   background-color: #0a65c0;
   color: white;
   border: none;
@@ -53,6 +58,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-bottom: 20px;
 }
 
 .questions h3 {
@@ -61,7 +67,7 @@ button {
 }
 
 .questions h1 {
-  font-size: 30px !important;
+  font-size: 25px !important;
   margin-top: 0 !important;
 }
 
@@ -70,7 +76,7 @@ button {
 }
 
 .questions h2 {
-  font-size: 20px !important;
+  font-size: 17px !important;
 }
 
 .q1 {
@@ -82,7 +88,7 @@ button {
 .arrow {
   margin: auto 0;
 }
-
+ 
 .border {
   border-bottom: 2px solid rgb(74, 131, 188);
   margin: 0px 12px;
@@ -91,22 +97,15 @@ button {
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .faq {
     flex-direction: column-reverse;
-    margin: 2rem !important;
+    width: 80%;
   }
-  .form {
-    margin: 0 !important;
-    margin-top: 15px !important;
-  }
-  .text-box {
-    padding-bottom: 6.5rem !important;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
   .faq {
-    /* flex-direction: column-reverse; */
-    margin: 2rem !important;
-    gap: 3rem;
+    gap: 1rem;
+    width: 70% !important;
   }
   .form {
     margin: 0;
@@ -116,7 +115,9 @@ button {
 
 @media screen and (max-width: 1440px) {
   .faq {
-    margin: 3rem 5rem;
+    /* margin: 3rem 5rem; */
+    width: 60%;
+    padding: 30px 0;
   }
   .questions h3 {
     font-size: 15px;

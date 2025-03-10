@@ -22,7 +22,7 @@ const Blogs = () => {
               <p>August 20, 2025</p>
             </div>
             <h1>The power of networking in your jobs</h1>
-            <p>
+            <p> 
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
               corrupti quam quisquam voluptatum exercitationem cumque at
               nesciunt facere magnam. Labore sapiente, eaque quibusdam sequi

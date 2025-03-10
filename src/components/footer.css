@@ -1,12 +1,19 @@
-.footer {
+/* .footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
   background: linear-gradient(to bottom, #5e6bfa, #244f7a);
   color: white;
+  width: 60%;
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto !important;
+  align-items: center;
+  align-content: center;
   gap: 4px;
+  text-align: center;
 }
 
 .footer-logo {
@@ -99,41 +106,37 @@
 .footer-about {
   display: flex;
   flex-direction: column;
-  margin: 10px 1rem;
-  margin-left: 3rem;
   text-align: left;
+  margin: auto;
 }
 
 .footer-about h1 {
   font-size: 15px;
-  /* margin: 3px 1rem; */
+  margin: 0;
 }
 .footer-about p {
-  font-size: 15px;
-  /* margin: 0 1rem; */
+  font-size: 10px;
 }
 
 .facebook {
   display: flex;
   gap: 12px;
-  /* margin: 10px 1rem; */
 }
 
 .usefull {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: auto;
 }
 
 .usefull h1 {
-  font-size: 20px;
-  margin: 15px 0px;
-  /* padding-bottom: 10px; */
+  font-size: 15px;
 }
 
 .flex-row {
-  margin: auto;
-  font-size: 15px;
+  margin-top: 2px;
+  font-size: 11px;
 }
 
 .usefull-flex-col {
@@ -141,10 +144,211 @@
   flex-direction: column;
   align-items: center;
   margin: 0;
+  font-size: 11px;
 }
 
 .useful-flex-row {
   display: flex;
   gap: 10px;
   margin: 0;
+}
+
+.useful-flex-row p {
+  margin: 0;
+}
+
+.we-do-flex-row p {
+  margin: 0;
+}
+
+.we-do {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.we-do h1 {
+  font-size: 15px;
+}
+
+.we-do-flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-size: 11px;
+}
+
+.we-do-flex-row {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+
+.subscribe h1 {
+  font-size: 20px;
+}
+
+.subscribe input {
+  width: fit-content;
+}
+
+.subscribe button {
+  width: fit-content;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footer-grid {
+    display: grid;
+    grid-template-columns: auto auto !important;
+  }
+  .footer-logo h1 {
+    font-size: 25px;
+  }
+  .subscribe h1 {
+    font-size: 15px;
+  }
+  .we-do-flex-col {
+    font-size: 8px;
+  }
+  .we-do h1 {
+    font-size: 10px;
+  }
+  .usefull h1 {
+    font-size: 10px;
+  }
+
+  .flex-row {
+    margin-top: 2px;
+    font-size: 8px;
+  }
+
+  .usefull-flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-size: 8px;
+  }
+  .footer-about h1 {
+    font-size: 10px;
+  }
+  .footer-about p {
+    font-size: 10px;
+  }
+  .address-flex-col h1 {
+    font-size: 10px;
+    margin: 0;
+  }
+  .email-flex-col h1 {
+    font-size: 10px;
+    margin: 0;
+  }
+  .number-flex-col h1 {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .email {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: auto auto auto;
+    margin-top: auto !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .footer-grid {
+    gap: 20px;
+}
+} */
+
+.footer {
+  background: linear-gradient(to bottom, #5e6bfa, #244f7a);
+  color: white;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-items: center;
+  justify-self: center;
+
+}
+
+.up-nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.up-nav-r-flex {
+  /* flex: 1; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  gap: 10px;
+  padding-top: 10px;
+}
+/* .up-nav-r{
+flex: 1;
+gap: 10px;
+} */
+
+/* .footer-logo {
+  flex: 1;
+} */
+.up-nav-s {
+  margin: auto;
+}
+
+.down-nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-wrap: wrap;
+  font-size: 10px;
+  gap: 10px;
+}
+
+.footer-about {
+  flex: 1;
+}
+
+.down {
+  margin: 0;
+  font-size: 10px;
+  flex: 1;
+}
+
+.down-flex-row {
+  display: flex;
+  gap: 10px;
+  padding: 3px 0;
+}
+.down-flex-row p{
+  margin: 0;
+}
+
+.flex-row {
+  margin: 0;
+}
+
+.subscribe {
+  flex: 1;
 }

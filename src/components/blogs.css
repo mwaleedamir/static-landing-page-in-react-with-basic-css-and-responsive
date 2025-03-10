@@ -1,5 +1,10 @@
 .blogs {
-  margin: 2rem 4rem;
+  /* padding: 3rem 6rem !important; */
+  display:flex ;
+  justify-self:center;
+  flex-direction: column;
+  width: 70%;
+  padding-top: 3rem;
 }
 
 .blogs-top {
@@ -14,15 +19,17 @@
   justify-content: space-between;
   justify-items: center;
   flex-direction: row;
+  
 }
 .blogs-top h2 {
-  font-size: 15px;
+  font-size: 10px !important;
   margin: 0;
 }
 
 .blogs-flex h1 {
-  font-size: 40px;
+  font-size: 30px !important;
   width: 50%;
+  margin-top: 0;
 }
 
 .blogs-button {
@@ -57,15 +64,15 @@
 }
 
 .date p {
-  font-size: 12px;
+  font-size: 10px;
   margin-bottom: 0;
 }
 .blogs-img h1 {
-  font-size: 23px !important;
+  font-size: 20px !important;
 }
 
 .blogs-img p {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
@@ -131,23 +138,5 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .date p {
-    font-size: 12px;
-    margin-bottom: 0;
-  }
-  .blogs-img h1 {
-    font-size: 30px !important;
-  }
-
-  .blogs-img p {
-    font-size: 20px;
-  }
-  .blogs-top h2 {
-    font-size: 20px;
-    margin: 0;
-  }
-
-  .blogs-flex h1 {
-    font-size: 45px;
-  }
+  
 }
