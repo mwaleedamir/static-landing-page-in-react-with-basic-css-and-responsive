@@ -20,7 +20,7 @@ const Jobs = () => {
           <button className="jobs-left-button">
             View All <FaLongArrowAltRight className="button-flex" />{" "}
           </button>
-        </div>
+        </div> 
 
         <div className="jobs-boxes">
           <div className="jobs-box">

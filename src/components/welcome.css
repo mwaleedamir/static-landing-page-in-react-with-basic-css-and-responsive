@@ -1,5 +1,4 @@
 .welcome-main {
-  
   /* display: flex;
   justify-content: center;
   justify-items: center; */
@@ -98,24 +97,25 @@
   justify-content: center;
   position: absolute;
   top: 29rem;
-  gap: 5px;
+  /* gap: 5px; */
   width: 60%;
 }
 
 .boxes p {
-  font-size: 13px;
+  font-size: 10px;
   text-align: center;
 }
 .boxes h1 {
-  font-size: small;
+  font-size: 15px;
   text-align: center;
 }
 .box {
   display: flex;
-  border: 2px solid #192bcc;
+  border: 2px solid #a0a4cd;
   position: relative;
   background: #192bcc;
   flex-direction: column;
+  padding-bottom: 10px;
 }
 
 .box-button button {
@@ -131,7 +131,7 @@
   margin: auto;
   border: none;
 }
-.flong{
+.flong {
   color: white;
 }
 
@@ -192,7 +192,7 @@
   }
 
   .writings-img img {
-    width: 80%;
+    width: 70%;
   }
 
   .writingleft {
@@ -201,15 +201,19 @@
 
   .boxes {
     flex-direction: column;
-    position: relative;
-    top: 15rem;
-    gap: 15px;
+    top: 26rem;
+    gap: 14px;
+    justify-self: anchor-center;
+  }
+  .box-button {
+    bottom: -15px;
+    left: 44%;
   }
   .boxes p {
-    font-size: 10px !important;
+    font-size: 5px !important;
   }
   .boxes h1 {
-    font-size: 15px !important;
+    font-size: 8px !important;
     margin: 4px;
   }
 
@@ -256,12 +260,24 @@
     margin: 0;
     padding-bottom: 15px;
   }
+  .boxes {
+    top: 25rem;
+    width: 60%;
+}
 }
 
 @media screen and (min-width: 1440px) {
+  .welcome-main {
+    /* display: flex;
+    justify-content: center;
+    justify-items: center; */
+    width: 60%;
+    justify-self: center;
+  }
+
   .writings-img img {
     width: 40%;
-}
+  }
 
   .writings-button {
     width: 50%;
@@ -278,5 +294,13 @@
     left: 45%;
     width: 33px;
     height: 33px;
+  }
+
+  .boxes {
+    flex-direction: row;
+    position: relative;
+    top: 4rem;
+    justify-self: center;
+    gap: 15px;
   }
 }

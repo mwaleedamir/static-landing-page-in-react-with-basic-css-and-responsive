@@ -101,9 +101,13 @@
   .service-box p {
     font-size: 7px !important;
   }
+  .service-box {
+    width: 7rem;
+    height: 6rem;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .services-boxes {
     gap: 6px;
   }
@@ -120,7 +124,7 @@
     font-size: 13px !important;
   }
   .service-box {
-    width: 6rem;
+    width: 7rem;
     height: 6rem;
   }
 }

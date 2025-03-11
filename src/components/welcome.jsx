@@ -22,7 +22,7 @@ const Welcome = () => {
           </div>
           <div className="writings-img">
             <img src="/assets/bg1.jpg" alt="bg" />
-          </div>
+          </div>  
         </div>
 
         <div className="boxes">
