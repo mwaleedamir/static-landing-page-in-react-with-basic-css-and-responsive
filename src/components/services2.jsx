@@ -9,7 +9,7 @@ const Services2 = () => {
             <h5 class="services2-subheadng">services Trident</h5>
             <h1 class="services2-mainheading">
               Nutring Talent, Feuling Growth
-            </h1>
+            </h1> 
             <p class="services2-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
               facilisis dui. Sed vel euismod massa, sed tincidunt ipsum. Nullam

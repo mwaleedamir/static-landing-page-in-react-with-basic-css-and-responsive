@@ -1,5 +1,8 @@
 import React from "react";
 import "./blogs.css";
+import { IoPerson } from "react-icons/io5";
+import { FaCalendarAlt } from "react-icons/fa";
+
 const Blogs = () => {
   return (
     <div className="blogs">
@@ -18,9 +21,9 @@ const Blogs = () => {
           <div className="blogs-img">
             <img src="/assets/bg2.jpeg" alt="bg" />
             <div className="date">
-              <p>types</p>
-              <p>August 20, 2025</p>
-            </div>
+              <p><IoPerson/> types</p>
+              <p><FaCalendarAlt/> August 20, 2025</p>
+            </div> 
             <h1>The power of networking in your jobs</h1>
             <p> 
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
@@ -35,8 +38,8 @@ const Blogs = () => {
           <div className="blogs-img">
             <img src="/assets/bg2.jpeg" alt="bg" />
             <div className="date">
-              <p>types</p>
-              <p>August 20, 2025</p>
+              <p><IoPerson/> types</p>
+              <p><FaCalendarAlt/> August 20, 2025</p>
             </div>
             <h1>The power of networking in your jobs</h1>
             <p>
@@ -52,8 +55,8 @@ const Blogs = () => {
           <div className="blogs-img">
             <img src="/assets/bg2.jpeg" alt="bg" />
             <div className="date">
-              <p>types</p>
-              <p>August 20, 2025</p>
+              <p><IoPerson/> types</p>
+              <p><FaCalendarAlt/> August 20, 2025</p>
             </div>
             <h1>The power of networking in your jobs</h1>
             <p>

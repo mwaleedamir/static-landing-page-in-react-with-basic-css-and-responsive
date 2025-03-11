@@ -1,15 +1,17 @@
 .about {
   display: flex;
-  justify-content: space-between;
-  justify-items: center;
-  width: fit-content;
-  background-color: #ccc;
-  padding: 4rem 1rem;
-  gap: 2rem;
+  padding: 6rem 1rem;
+  gap: 1rem;
+  width: 70%;
+  justify-self: center;
 }
- 
+
+.about- {
+  background-color: #ccc;
+}
+
 .about-right {
-  flex: 2;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,10 +92,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .about {
-    display: flex;
     flex-direction: column-reverse;
-    background-color: #ccc;
-    padding: 6rem 3rem !important;
+    padding: 2rem!important;
     margin: 0;
   }
 
@@ -113,8 +113,8 @@
   }
 
   .about-img img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
   }
 
   .about-img {
@@ -145,8 +145,8 @@
 
 @media screen and (min-width: 768px) {
   .grid-row img {
-    width: 20px !important;
-    height: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
   }
 
   .about-grid h1 {
@@ -168,17 +168,12 @@
     font-size: 20px;
     padding-top: 0 !important;
   }
-
-  .about-img img {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 @media screen and (max-width: 1440px) {
-  .about {
+  /* .about {
     padding: 5rem 6rem;
-  }
+  } */
   .about-img {
     width: 50%;
   }

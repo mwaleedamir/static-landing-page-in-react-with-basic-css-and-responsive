@@ -323,10 +323,13 @@ const Footer = () => {
               <input type="text" placeholder="Your Email" name="" id="" />
             </div>
             <div>
-              <button>Subsribe Now</button>
+              <button className="subscribe-now-button">Subsribe Now</button>
             </div>
           </div>
         </div>
+      </div>
+      <div className="copyright">
+        <p>Copyright 2025 © Tridient | powered by Rothem studio</p>
       </div>
     </div>
   );

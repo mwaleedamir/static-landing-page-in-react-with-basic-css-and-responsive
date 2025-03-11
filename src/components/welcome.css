@@ -1,24 +1,21 @@
 .welcome-main {
-  position: relative;
-  display: flex;
+  
+  /* display: flex;
   justify-content: center;
-  justify-items: center;
+  justify-items: center; */
+  width: 70%;
+  justify-self: center;
 }
 
 .writings {
   display: flex;
-  justify-content: space-between;
-  justify-items: center;
-  flex-direction: row;
-  padding: 0 2rem !important;
-  margin: 0 3rem !important;
+  position: relative;
 }
 
 .writingleft {
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 20px 40px;
 }
 
 .para {
@@ -43,6 +40,7 @@
   border: none;
   cursor: pointer;
   font-size: 10px;
+  height: 30px;
 }
 
 .button-readmore {
@@ -50,17 +48,18 @@
   color: white;
   background-color: #192bcc;
   border: 0px solid;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   padding: 12px 10px;
+  width: 5rem;
 }
 .button-explore {
   color: white;
   flex: 1;
   background-color: #121424;
   border: none;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   padding: 12px 10px;
 }
 
@@ -94,18 +93,17 @@
   align-items: center;
 }
 
-
-
 .boxes {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 19rem !important;
-  gap: 3px;
+  top: 29rem;
+  gap: 5px;
+  width: 60%;
 }
 
 .boxes p {
-  font-size: xx-small;
+  font-size: 13px;
   text-align: center;
 }
 .boxes h1 {
@@ -113,29 +111,42 @@
   text-align: center;
 }
 .box {
+  display: flex;
   border: 2px solid #192bcc;
+  position: relative;
   background: #192bcc;
-  width: 20%;
-}
-.boxes button {
-  display: block;
-  border: none;
-  text-align: center;
+  flex-direction: column;
 }
 
+.box-button button {
+  border-radius: 100%;
+  padding: 7px;
+  background-color: #6c64fb;
+  border: none;
+}
+.box-button {
+  bottom: -15px;
+  left: 46%;
+  position: absolute;
+  margin: auto;
+  border: none;
+}
+.flong{
+  color: white;
+}
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .writings {
     flex-direction: column;
-    padding: 0 2rem !important;
+    /* padding: 0 2rem !important; */
   }
 
-  .writingleft {
+  /* .writingleft {
     flex: 2 !important;
-  }
+  } */
 
   .welcome {
-    font-size: 8px !important;
+    font-size: 10px !important;
   }
 
   .connecting {
@@ -181,7 +192,7 @@
   }
 
   .writings-img img {
-    width: 100%;
+    width: 80%;
   }
 
   .writingleft {
@@ -189,16 +200,17 @@
   }
 
   .boxes {
-    flex-direction: row;
-    width: fit-content;
-    top: 3px !important;
-    top: 14rem !important;
+    flex-direction: column;
+    position: relative;
+    top: 15rem;
+    gap: 15px;
   }
   .boxes p {
-    font-size: 8px !important;
+    font-size: 10px !important;
   }
   .boxes h1 {
-    font-size: 9px !important;
+    font-size: 15px !important;
+    margin: 4px;
   }
 
   .box1 {
@@ -213,7 +225,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .writings-button {
     width: 80% !important;
   }
@@ -233,12 +244,12 @@
     margin: 0;
     padding-bottom: 10px;
   } */
-  
+
   .welcome {
     font-size: 15px;
     text-align: start;
   }
-  
+
   .connecting {
     font-size: 30px;
     font-weight: bold;
@@ -247,13 +258,10 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
-  .writings {
-    padding: 2rem 7rem;
-  }
+@media screen and (min-width: 1440px) {
   .writings-img img {
-    width: 50%;
-  }
+    width: 40%;
+}
 
   .writings-button {
     width: 50%;

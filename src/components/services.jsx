@@ -10,37 +10,48 @@ const Services = () => {
         </div>
         <div className="services-boxes">
           <div className="service-box">
-            <h2 className="services-subheadings">box1 </h2>
+            <div >
+              <button className="service-box-button" >box 1 </button>
+            </div>
             <h1 className="services-mainheadings">Tailoring Excellence</h1>
             <p className="about-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
-              facilisis dui. Sed vel euismod massa, sed tincidunt ipsum.
+              facilisis dui. Sed vel 
             </p>
           </div>
           <div className="service-box">
-            <h2 className="services-subheadings">box2 </h2>
+            <div >
+              <button className="service-box-button" >box 2 </button>
+            </div>
             <h1 className="services-mainheadings">Tailoring Excellence</h1>
             <p className="about-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
-              facilisis dui. Sed vel euismod massa, sed tincidunt ipsum
+              facilisis dui. Sed vel 
             </p>
           </div>
           <div className="service-box">
-            <h2 className="services-subheadings">box3 </h2>
+            <div >
+              <button className="service-box-button" >box 3 </button>
+            </div>
             <h1 className="services-mainheadings">Tailoring Excellence</h1>
             <p className="about-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
-              facilisis dui. Sed vel euismod massa, sed tincidunt ipsum
+              facilisis dui. Sed vel 
             </p>
           </div>
           <div className="service-box">
-            <h2 className="services-subheadings">box4 </h2>
+            <div >
+              <button className="service-box-button" >box 4 </button>
+            </div>
             <h1 className="services-mainheadings">Tailoring Excellence</h1>
             <p className="about-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
-              facilisis dui. Sed vel euismod massa, sed tincidunt ipsum
+              facilisis dui. Sed vel 
             </p>
           </div>
+
+          
+          
         </div>
       </div>
     </div>
